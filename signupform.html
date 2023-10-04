@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In Form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+          @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+        body{
+            background-color: #0f9690;
+            color: white;
+        
+       
+            }
+        .main{
+            display: flex;
+            justify-content: center;
+        
+        }
+       
+       .form{
+        align-items: center;
+        width:250px;
+        background-color:black;
+        border:2px solid black;
+        border-radius: 10px;
+        margin-top: 5px;
+        padding: 40px;
+        color: rgb(235, 153, 1);
+        margin:40px;
+       }
+        
+       .heading{
+        text-align: center;
+        color: white;
+        width: 100%;
+        height: 0px;
+        margin-top: 20px;
+       }
+       h4{
+        color: rgb(235, 153, 1);
+        margin-top:20px ;
+
+       }
+       h5{
+        color: white;
+       }
+       .btn{
+        
+        width:100px;
+        height: 30px;
+        border:2px solid white;
+        border-radius: 5px;
+       }
+       .btn:hover{
+        background-color:brown;
+       }
+
+    </style>
+</head>
+<body >
+    
+          <!--Header Navbar-->
+      <div class="naavbar">
+        <header class="nav">
+            <div class="nav-text">
+                <img src="Images/logo.png">
+                
+            </div>
+            <nav >
+                <ul class="navbar">
+              
+                <a href="index.html" target="_top">  <i class="fa-solid fa-house"></i>  <li>Home</li></a>
+                    
+                <a href="#"><i class="fa-solid fa-info"></i></i> <li>About</li></a>
+
+                <a href="#">  <i class="fa-solid fa-handshake "></i><li>Contact Us</li></a>
+                     
+                <a href="#"> <i class="fa-solid fa-question"></i></i><li>Help</li></a>
+                <a href="loginform.html"> <i class="fa-solid fa-login"></i></i><li>Login</li></a>              
+                <a href="loginform.html"> <i class="fa-solid fa-login"></i></i><li>Sign Up</li></a>              
+                      
+                
+              
+                      
+                </ul>
+            </nav>
+        
+        </header>
+       </div>
+    <h1 class="heading">Login Form</h1>
+    <br>
+    <div class="main">
+    <div class="form">
+    <form action ="form.html" method="get">
+        <h4>First Name:</h4>
+        <input type="text" placeholder="Enter Your Name" required><br>
+       
+        <h4>Last Name:</h4>
+        <input type="text" placeholder="Enter Your Lastname">
+
+         
+
+        <h4>Email:</h4>
+        <input type="text" placeholder="Enter Your Email" >
+
+        <h4>Password</h4>
+        <input type="password" placeholder="Enter Password" >
+        <h4>Conform Password</h4>
+        <input type="password" placeholder="Enter Password" >
+
+
+      
+
+      
+   
+        
+
+       <br><br>
+        <input type="button" value="Submit" class="btn"> 
+        <input type="reset" value="Reset" class="btn">
+     
+
+    </form>
+</div>
+    </div>
+</body>
+</html>
